@@ -1,0 +1,177 @@
+/* restart */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* akhir restart */
+
+/* navbar */
+nav {
+  background-color: #8eaa94;
+  padding: 1rem;
+}
+
+.logo {
+  float: left;
+  font-size: 1.4em;
+}
+
+.container-navbar {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+li {
+  display: inline;
+  margin-right: 1rem;
+  line-height: 2;
+}
+/* akhir navbar */
+
+/* main */
+main {
+  background-image: url('https://img.freepik.com/free-vector/tiny-people-searching-business-opportunities_74855-19928.jpg?size=626&ext=jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  padding: 20%;
+}
+
+.content h1 {
+  font-size: 3.5em;
+}
+
+.content p {
+  font-size: 1.4em;
+}
+
+/* akhir main */
+
+/* about */
+.container-about {
+  width: 90%;
+  margin: 1rem auto;
+  box-shadow: 2px 4px 7px 2px #606060;
+  padding: 1rem;
+  border-radius: 14px;
+}
+
+.section-img img {
+  float: left;
+}
+
+.section-about {
+  margin-top: 10%;
+}
+/* akhir about */
+
+/* gallery */
+.container-gallery {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.header-gallery {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-gallery {
+  width: 100%;
+  background-color: #8eaa94;
+  border-radius: 14px;
+  padding: 2rem 0;
+  padding-left: 12rem;
+}
+
+.section-gallery img {
+  width: 25%;
+}
+
+/* akhir gallery */
+
+/* client */
+.container-client {
+  width: 80%;
+  margin: auto;
+}
+
+.header-client {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.table-client table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table-client th,
+td {
+  border: 1px solid #606060;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* akhir client */
+
+/* form */
+.container-form {
+  margin: 1rem auto;
+}
+
+.header-form {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-contact {
+  background-color: #606060;
+  color: #f0f0f0;
+  padding: 1rem;
+}
+
+.form-contact label {
+  font-size: 18px;
+}
+
+.form-contact input {
+  font-size: 1.2em;
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+/* akhir form */
+
+/* footer */
+footer {
+  background-color: #8eaa94;
+  padding: 1rem;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* akhir footer */
